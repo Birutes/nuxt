@@ -14,6 +14,13 @@ export default {
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
   */
+  generate: {
+    routes: [
+      'posts/balut',
+      'posts/whereIsIt',
+      'posts/how'      
+    ]
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [
